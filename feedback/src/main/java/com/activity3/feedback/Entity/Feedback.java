@@ -7,7 +7,6 @@ import lombok.Data;
 @Data
 public class Feedback
 {
-
     @Id
     //@GeneratedValue(strategy = GenerationType.IDENTITY)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "feedback_seq")
